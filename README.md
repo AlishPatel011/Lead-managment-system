@@ -1,41 +1,45 @@
 # 🎯 Lead Management System
 
-A [**brief, compelling sentence or two**] describing the purpose of your application. This system is designed to efficiently track, manage, and process sales leads from initial capture to final conversion, providing a centralized platform for sales teams.
+A robust and scalable Lead Management System built with **Ruby on Rails**. This application provides a centralized platform for sales teams to efficiently capture, track, and manage sales leads throughout the entire pipeline—from initial submission to final conversion.
 
 ---
 
-## 🌟 Key Features
+## 🌟 Features
 
-* **Lead Capture:** Mechanism for submitting new leads (e.g., via a public form, API, or manual entry).
-* **Intuitive Dashboard:** A clear, high-level view of all leads with current **status indicators** (e.g., New, Contacted, Qualified, Converted, Lost).
-* **Detailed Lead Profiles:** Dedicated views for each lead containing contact information, history of interactions, and follow-up notes.
-* **Search & Filter:** Powerful tools to quickly find and segment leads based on criteria like date, status, or source.
-* **[Add a specific feature, e.g., User Authentication]** Secure login for team members with role-based access.
+* **Lead Creation:** Allows for the manual creation of new leads or capture via a web form.
+* **Lead Tracking:** View all leads on a central dashboard with filterable and searchable options.
+* **Status Management:** Easily update the lead status (e.g., New, Contacted, Qualified, Converted, Lost).
+* **User Authentication:** Secure login for team members using **[e.g., Devise]**.
+* **Data Persistence:** Uses a **[e.g., PostgreSQL or MySQL]** database for reliable data storage.
+* **[Add a specific feature, e.g., Notes/Activity Log]** Track all interactions and notes associated with a lead.
 
 ---
 
 ## 🛠️ Technology Stack
 
-This project is built using the following core technologies:
+This project is built on the following technologies:
 
 | Category | Technology | Version |
 | :--- | :--- | :--- |
-| **Frontend** | [e.g., React.js, Vue.js] | [e.g., v18] |
-| **Backend** | [e.g., Ruby on Rails, Node.js (Express)] | [e.g., v7.0.4] |
-| **Database** | [e.g., PostgreSQL, MongoDB] | [e.g., v14] |
-| **Styling** | [e.g., Tailwind CSS, Bootstrap] | [Specify] |
+| **Backend Framework** | **Ruby on Rails** | [Specify your version, e.g., 7.0.x] |
+| **Programming Language** | **Ruby** | [Specify your version, e.g., 3.2.x] |
+| **Database** | **[PostgreSQL / MySQL / SQLite]** | [Specify version if needed] |
+| **Authentication** | **[e.g., Devise]** | [Specify] |
+| **Frontend/Styling** | **[e.g., Bootstrap, Tailwind CSS, or default Rails views]** | [Specify] |
 
 ---
 
 ## ⚙️ Installation and Setup
 
-Follow these steps to get your development environment running locally.
+Follow these instructions to get a development copy of the project running on your local machine.
 
 ### Prerequisites
 
-* [e.g., **Node.js**] (version [e.g., 18.x])
-* [e.g., **Ruby**] (version [e.g., 3.x])
-* [e.g., **Git**]
+You need the following installed:
+
+* **Ruby** (version [Your Ruby Version])
+* **Bundler** (`gem install bundler`)
+* **[Your Database]** (e.g., PostgreSQL)
 
 ### 1. Clone the Repository
 
